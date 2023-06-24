@@ -10,7 +10,7 @@ class CurryRecipe
     end
 
     def self.menus
-        p [{"普通のカレー": "880円"},{"悪魔カレー": "1000円"}]
+        p [{"普通のカレー": "880円"},{"悪魔カレー": "1800円"}]
     end
 
     def yummy?
