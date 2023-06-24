@@ -43,3 +43,12 @@ akuma_curry.yummy?
 p akuma_curry.water = 800
 #美味しいか確認
 akuma_curry.yummy?
+
+
+#ざっきーくんの作業内容
+#隠し味を変えて悪魔カレーを作成！
+akuma_special_curry = CurryRecipe.new(name: "悪魔スペシャルカレー", kakushiaji: "ウイスキー")
+#美味しいか確認
+akuma_special_curry.yummy?
+#メニュー表に追加
+#CurryRecipe.menus
