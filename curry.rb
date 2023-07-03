@@ -10,7 +10,7 @@ class CurryRecipe
     end
 
     def self.menus
-        p [{"普通のカレー": "880円"},{"悪魔カレー": "1800円"}]
+        p [{"普通のカレー": "880円"},{"悪魔カレー": "1000円"}]
     end
 
     def yummy?
@@ -30,3 +30,15 @@ standard_curry = CurryRecipe.new(name: "普通のカレー", kakushiaji: "チョ
 standard_curry.yummy?
 #メニュー表
 CurryRecipe.menus
+
+#隠し味を変えて悪魔カレーを作成！
+akuma_curry = CurryRecipe.new(name: "悪魔カレー", kakushiaji: "ビール")
+#美味しいか確認
+akuma_curry.yummy?
+#メニュー表に追加
+CurryRecipe.menus
+
+#水分量の変更
+p akuma_curry.water = 800
+#美味しいか確認
+akuma_curry.yummy?
