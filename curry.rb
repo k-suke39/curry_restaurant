@@ -34,11 +34,11 @@ CurryRecipe.menus
 #隠し味を変えて悪魔カレーを作成！
 akuma_curry = CurryRecipe.new(name: "悪魔カレー", kakushiaji: "ビール")
 #美味しいか確認
-akuma_curry.yummy?
+#akuma_curry.yummy?
 #メニュー表に追加
-CurryRecipe.menus
+#CurryRecipe.menus
 
 #水分量の変更
-#p akuma_curry.water = 800
+p akuma_curry.water = 800
 #美味しいか確認
-#akuma_curry.yummy?
+akuma_curry.yummy?
